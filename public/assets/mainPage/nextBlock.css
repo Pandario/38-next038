@@ -1,0 +1,17 @@
+
+@keyframes smooth-appear {
+    to{
+        
+        top: 0;  
+        opacity:1;
+    }
+  }
+  #moving_part1 {
+    background-color: aquamarine;
+    top: 200px;
+    opacity:0;
+    position: relative;
+    animation: smooth-appear 1.4s ease forwards;
+  }
+
+  
