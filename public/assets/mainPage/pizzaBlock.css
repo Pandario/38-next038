@@ -1,0 +1,15 @@
+#Pizza {
+    top: 200px;
+    opacity:0;
+    left: 200px;
+    position: relative;
+    animation: smooth-appear 2.3s ease forwards;
+  }
+  
+  @keyframes smooth-appear {
+    to{
+        
+        top: 0;
+        opacity:1;
+    }
+  }

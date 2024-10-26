@@ -1,17 +1,66 @@
 
-@keyframes smooth-appear {
-    to{
-        
-        top: 0;  
-        opacity:1;
-    }
-  }
-  #moving_part1 {
-    background-color: aquamarine;
-    top: 200px;
-    opacity:0;
-    position: relative;
-    animation: smooth-appear 1.4s ease forwards;
-  }
+#moving_part1 {
+  background-color: aquamarine;
+  top: 200px;
+  opacity:0;
+  position: relative;
+  animation: smooth-appear 1.3s ease forwards;
+}
 
-  
+@keyframes smooth-appear {
+  to{
+      
+      top: 0;  
+      opacity:1;
+  }
+}
+
+#moving_partleft1{
+  top: 200px;
+  right: 200px;
+  opacity:0;
+  position: relative;
+  animation: smooth-appear_left 1.4s ease forwards;
+}
+
+#moving_partleft2{
+  top: 220px;
+  right: 220px;
+  opacity:0;
+  position: relative;
+  animation: smooth-appear_left 1.7s ease forwards;
+}
+
+@keyframes smooth-appear_left {
+  to{
+      
+      top: 0;
+      right: 0;  
+      opacity:1;
+  }
+}
+
+#moving_partright1 {
+  top: 200px;
+  left: 200px;
+  opacity:0;
+  position: relative;
+  animation: smooth-appear_right 1.6s ease forwards;
+}
+
+#moving_partright2 {
+  top: 220px;
+  left: 220px;
+  opacity:0;
+  position: relative;
+  animation: smooth-appear_right 1.9s ease forwards;
+}
+
+@keyframes smooth-appear_right {
+  to{
+      
+      top: 0;
+      left: 0;  
+      opacity:1;
+  }
+}

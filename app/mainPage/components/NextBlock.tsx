@@ -22,14 +22,14 @@ const NextBlock = () => {
         <div className="grid grid-cols-2 gap-5 space-x-4">
             {/*left moving part*/}
             <div className="text-center flex flex-col items-end">
-                <div className="text-2xl size-48 bg-slate-200 mb-2" id='moving_partleft'>Some text</div>
-                <div className="text-2xl size-48 bg-violet-200" id='moving_partleft'>Some more</div>
+                <div className="text-2xl size-48 bg-slate-200 mb-2" id='moving_partleft1'>Some text</div>
+                <div className="text-2xl size-48 bg-violet-200" id='moving_partleft2'>Some more</div>
             </div>
             
             {/*right moving part*/}
             <div className="text-center flex flex-col items-start">
-                <div className="text-2xl size-48 bg-slate-200 mb-2" id='moving_partleft'>Some text</div>
-                <div className="text-2xl size-48 bg-violet-200" id='moving_partleft'>Some more</div>
+                <div className="text-2xl size-48 bg-slate-200 mb-2" id='moving_partright1'>Some text</div>
+                <div className="text-2xl size-48 bg-violet-200" id='moving_partright2'>Some more</div>
             </div>
         </div>
         
